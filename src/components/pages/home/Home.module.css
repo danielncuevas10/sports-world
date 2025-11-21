@@ -1,0 +1,458 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.heroContainer {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    z-index: -1;  
+    color: black;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1.5rem;
+    z-index: -1;
+}
+
+.heroContainer p {
+    position: absolute;
+    bottom: .5rem;
+    color: white;
+    font-weight: 300;
+    font-size: 1.7rem;
+    width: 60%;
+    right: 1.5rem;
+    text-align: right;
+}
+
+.sportsContainer {
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+/* Icons with colors */
+
+.icons {
+    height: 2.5rem;
+    padding: 1rem 1.1rem;
+}
+
+/* Baseball collections */
+
+.collection1 {
+    background-color: #F5F6F8;
+    padding-bottom: 5rem;
+    border-radius: 1.5rem;
+}
+
+.collections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ h2 {
+    text-align: center;
+    font-weight: 300;
+    padding-top: 2rem;
+}
+
+.collections .item img{
+    height: 10rem;
+    border-radius: 1rem;
+    margin-top: 2.5rem;
+}
+
+.collections .item p {
+    font-size: .8rem;
+    font-weight: 250;
+}
+
+/* Outlet */
+
+.outlet .collections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.outlet .collections .item {
+    background-color: #F5F6F8;
+    margin-bottom: 1rem;
+    border-radius: 1.5rem;
+}
+
+.outlet .collections .item img{
+    height: 14rem;
+    border-radius: 1.5rem;
+    margin-top: 2.5rem;
+    padding: .5rem;
+    margin: .01rem;
+    border: .1px solid rgb(220, 218, 218);
+}
+
+.outlet .item p {
+    text-align: left;
+    padding: .1rem 1rem;
+    width: 8rem;
+    font-size: .6rem;
+}
+
+
+/* About us */
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    height: 60vh;
+    margin-top: 3rem;
+}
+
+.left {
+    height: 30vh;
+    width: 100%;
+    background-color: #F5F6F8;
+    border-radius: 1.5rem 1.5rem 0rem 0rem;
+    align-content: center;
+}
+
+.left h2 {
+    padding: 1rem 3rem;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.left p {
+    font-size: 1.5rem;
+    text-align: left;
+    padding: .5rem 3rem;
+}
+
+.right {
+    height: 30vh;
+    width: 100%;
+    background-color: #8A8A8A;
+    border-radius: 0rem 0rem 1.5rem 1.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    color: whitesmoke;
+    align-items: center;
+}
+
+.right h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.right p {
+    font-size: .7rem;
+    padding: 0rem 1rem;
+}
+
+.icons2  {
+    height: 2rem;
+    padding: 1.2rem;
+    filter: invert(100%) brightness(200%);
+}
+
+/* Sports World at your Service */
+
+.service2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.service2 h2 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.service p {
+    align-self: center;
+    text-align: center;
+    font-size: .5rem;
+    padding: 1rem .2rem;
+}
+
+.service .righticons {
+    border: 1px solid #88888888;
+    margin: .5rem;
+    padding: .5rem;
+    width: 6rem;
+    border-radius: 1.5rem;
+}
+
+.service .righticons .icons2{
+    height: 2rem;
+    filter: invert(0%) brightness(0%);   
+}
+
+.service .righticons .icons3{
+    height: 3rem;
+    padding: .8rem 1.2rem;
+}
+
+
+
+/* iPads and smaller desktops*/
+@media (min-width: 768px) {
+    .heroContainer {
+        position: relative;
+        width: 100%;
+        height: 85vh;
+        overflow: hidden;
+        z-index: -1;  
+        color: black;
+        justify-self: center;
+    }
+
+    .heroContainer p {
+        position: absolute;
+        bottom: .5rem;
+        color: white;
+        font-weight: 300;
+        font-size: 2.8rem;
+        width: 45%;
+        right: 1.5rem;
+        text-align: right;
+    }
+    .sportsContainer {
+        height: 20vh;
+    }
+    .icons {
+        height: 3rem;
+        padding: 0rem 0rem 0rem 1.5rem;
+    }
+    .collection1 {
+        background-color: #F5F6F8;
+    }
+    
+    .collections {
+        display: flex;
+        justify-content: space-around;
+    }
+    .collections .item img{
+        height: 11.5rem;
+    }
+    
+    .collections .item p {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    
+    .left h2 {
+        padding: 1rem 5rem;
+        text-align: left;
+        font-size: 2rem;
+    }
+    
+    .left p {
+        font-size: 2.5rem;
+        text-align: left;
+        padding: .5rem 5rem;
+    }
+
+    .right h2 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
+    .right p {
+        font-size: 1.5rem;
+        padding: 0rem 2rem;
+    }
+    
+    .icons2  {
+        height: 2.5rem;
+    }
+
+    .service h2 {
+        padding: 2rem;
+    }
+
+    .service2 {
+        justify-content: space-around;
+    }
+
+    .service2 h2 {
+        font-size: 1.5rem;
+        font-weight: 200;
+        padding: 0 2rem;
+    }
+    
+    .service p {
+        align-self: center;
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem .2rem;
+        font-weight: 150;
+    }
+
+    .service .righticons {
+        border: 1px solid #88888888;
+        margin: .5rem;
+        padding: .5rem;
+        width: 12rem;
+        border-radius: 1.5rem;
+    }
+
+    .service .righticons .icons2{
+        height: 4rem;
+        filter: invert(50%) brightness(70%); 
+        padding: 1rem;  
+    }
+    
+    .service .righticons .icons3{
+        height: 6rem;
+        padding: 0rem 1.2rem;
+    }
+}
+
+
+
+  
+  /* Desktop */
+  @media (min-width: 1024px) {
+    .heroContainer p {
+        position: absolute;
+        bottom: .5rem;
+        color: white;
+        font-weight: 300;
+        font-size: 2.8rem;
+        width: 45%;
+        right: 1.5rem;
+        text-align: right;
+    }
+    .icons {
+        height: 4rem;
+        padding: 0rem 0rem 0rem 2rem;
+    }
+    .collection1 {
+        background-color: #F5F6F8;
+        
+    }
+    
+    .collections {
+        display: flex;
+        justify-content: space-around;
+    }
+    .collections .item img{
+        height: 12.5rem;
+    }
+    
+    .collections .item p {
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+    .outlet h2 {
+        margin-bottom: 4rem;
+    }
+
+    .outlet .collections .item img{
+        height: 18rem;
+        padding: .6rem;
+
+        border: .1px solid rgb(220, 218, 218);
+    }
+
+    .about {
+        display: flex;
+        height: 35vh;
+    }
+    
+    .left {
+        height: 35vh;
+        width: 50%;
+        background-color: #F5F6F8;
+        border-radius: 1.5rem 0rem 0rem 1.5rem;
+    }
+    
+    .right {
+        height: 35vh;
+        width: 50%;
+        background-color: #8A8A8A;
+        border-radius: 0rem 1.5rem 1.5rem 0rem;
+    }
+    .left h2 {
+        padding: 1rem 5rem;
+        text-align: left;
+        font-size: 1.2rem;
+    }
+    
+    .left p {
+        font-size: 1.8rem;
+        text-align: left;
+        padding: .5rem 5rem;
+    }
+
+    .right h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    
+    .right p {
+        font-size: 1.2rem;
+        padding: 1rem 1rem;
+    }
+    
+    .icons2  {
+        padding: .5rem;
+        height: 2rem;
+    }
+
+
+    .service h2 {
+        padding: 2rem;
+    }
+
+    .service2 {
+        justify-content: space-around;
+    }
+
+    .service2 h2 {
+        font-size: 1.5rem;
+        font-weight: 200;
+        padding: 0 4rem;
+    }
+    
+    .service p {
+        align-self: center;
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem .2rem;
+        font-weight: 150;
+    }
+
+    .service .righticons {
+        border: 1px solid #88888888;
+        margin: .5rem;
+        padding: .5rem;
+        width: 16rem;
+        border-radius: 1.5rem;
+    }
+
+    .service .righticons .icons2{
+        height: 4rem;
+        filter: invert(50%) brightness(70%); 
+        padding: 1rem;  
+    }
+    
+    .service .righticons .icons3{
+        height: 6rem;
+        padding: 0rem 1.2rem;
+    }
+  }

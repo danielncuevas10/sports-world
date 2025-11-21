@@ -1,0 +1,61 @@
+.navbar {
+    top: 1rem;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1000;
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 1rem;
+    padding: .5rem 2.5rem;
+
+    background: rgba(172, 164, 164, 0.241); 
+    backdrop-filter: blur(1rem);        
+    -webkit-backdrop-filter: blur(1rem);  
+    border-radius: 1rem;                
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.link {
+    color: rgb(255, 255, 255);
+}
+
+.link:hover {
+    color: #0070f3;
+  }
+
+/* iPads and smaller desktops*/
+@media (min-width: 768px) {
+    .navbar {
+      margin-top: .3rem;
+      width: 85%;
+      padding: 1rem 2.5rem;
+      justify-self: center;
+    }
+    .navbar .link{
+      letter-spacing: .1rem;
+      font-size: 1rem;
+    }
+  }
+  
+  /* Desktop */
+  @media (min-width: 1024px) {
+    .navbar {
+      margin-top: .5rem;
+      width: 86%;
+      padding: 1rem 3rem;
+    }
+
+    .navbar .link{
+      letter-spacing: .2rem;
+      font-size: 1.2rem;
+      
+    }
+  }

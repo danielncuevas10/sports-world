@@ -1,0 +1,178 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.heroContainer {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    z-index: -1;  
+    color: black;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1.5rem;
+    z-index: -1;
+}
+
+.heroContainer p {
+    position: absolute;
+    bottom: .5rem;
+    color: white;
+    font-weight: 300;
+    font-size: 1.7rem;
+    width: 60%;
+    right: 1.5rem;
+    text-align: right;
+}
+
+.sportsContainer {
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+/* Icons with colors */
+
+.icons {
+    height: 2rem;
+    padding: 1rem 1.5rem;
+}
+
+/* Baseball collections */
+
+.mlb {
+    background-color: #F5F6F8;
+    padding-bottom: 3rem;
+    border-radius: 1.5rem;
+}
+
+.mlb h2, .lmb h2 {
+    text-align: right;
+    padding: 2rem 1rem 0rem 1rem;
+    font-weight: 400;
+}
+
+.mlbContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.line {
+    border-bottom: .5px solid rgb(190, 186, 186); /* Creates a 2px solid black line at the bottom */
+    width: 90%; 
+    justify-self: center;
+}
+
+/* Items with colors */
+
+.item {
+    width: 10rem;
+}
+
+.mlbContent .item img{
+    height: 14rem;
+    border-radius: 1.5rem;
+    margin-top: 2.5rem;
+    padding: .5rem;
+    border: .1px solid rgb(220, 218, 218);
+}
+
+.item img{
+    height: 12rem;
+    padding: 1rem 1.1rem;
+    border-radius: 1.5rem;
+}
+
+.item p {
+    font-size: 1rem;
+    font-weight: 250;
+    text-align: left;
+}
+
+.item .price {
+    font-size: 1rem;
+}
+
+.item .description {
+    font-size: .8rem;
+    color: gray;
+}
+
+.lmb {
+    margin-top: 1rem;
+    border: .1px solid rgb(220, 218, 218);
+    border-radius: 1.5rem;
+}
+
+/* iPads and smaller desktops*/
+@media (min-width: 768px) {
+    .heroContainer {
+        position: relative;
+        width: 100%;
+        height: 70vh;
+        z-index: -1;  
+        color: black;
+    }
+
+    .heroContainer p {
+        font-weight: 300;
+        font-size: 2.8rem;
+        width: 45%;
+        right: 1.5rem;
+        text-align: right;
+    }
+
+    .sportsContainer {
+        height: 15vh;
+    }
+
+    .icons {
+        height: 2.5rem;
+    }
+}
+
+
+
+  /* Desktop */
+  @media (min-width: 1024px) {
+    .heroContainer {
+        position: relative;
+        width: 100%;
+        height: 85vh;
+        z-index: -1;  
+        color: black;
+    }
+    .sportsContainer {
+        height: 20vh;
+    }
+
+    .mlb h2, .lmb h2 {
+        font-size: 2rem;
+        padding: 2rem 3.5rem 0rem 0rem;
+    }
+
+    .mlbContent .item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: .5rem 2rem;
+    }
+
+    .mlbContent .item img {
+        height: 14rem;
+    }
+
+    .item p {
+        text-align: center;
+        margin: .5rem 1rem 1rem 1rem;
+    }
+}
