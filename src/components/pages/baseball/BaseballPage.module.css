@@ -138,6 +138,7 @@ body, html {
     .icons {
         height: 2.5rem;
     }
+
 }
 
 
@@ -155,8 +156,16 @@ body, html {
         height: 20vh;
     }
 
+    .item {
+        width: 15rem;
+    }
+
+    .icons {
+        height: 4rem;
+    }
+
     .mlb h2, .lmb h2 {
-        font-size: 2rem;
+        font-size: 4rem;
         padding: 2rem 3.5rem 0rem 0rem;
     }
 
@@ -164,15 +173,21 @@ body, html {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        padding: .5rem 2rem;
+        padding: .5rem 3rem;
+    }
+
+    .mlbContent .item p{
+        font-size: 1.5rem;
     }
 
     .mlbContent .item img {
-        height: 14rem;
+        height: 18rem;
     }
 
     .item p {
         text-align: center;
         margin: .5rem 1rem 1rem 1rem;
     }
+
+
 }

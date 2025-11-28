@@ -2,14 +2,16 @@ body, html {
     padding: 0;
     margin: 0;
     border: 0;
+    overflow-x: hidden;
 }
 
 .heroContainer {
     position: relative;
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     z-index: -1;  
     color: black;
+    overflow: hidden;
 }
 
 .background {
@@ -37,6 +39,7 @@ body, html {
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-around;
+    overflow-x: hidden;
 }
 
 /* Icons with colors */
@@ -187,7 +190,7 @@ body, html {
 }
 
 .service .righticons {
-    border: 1px solid #88888888;
+    border: 1px solid #ffffff88;
     margin: .5rem;
     padding: .5rem;
     width: 6rem;
@@ -216,6 +219,7 @@ body, html {
         z-index: -1;  
         color: black;
         justify-self: center;
+        margin-top: 0;
     }
 
     .heroContainer p {
@@ -302,7 +306,7 @@ body, html {
     }
 
     .service .righticons {
-        border: 1px solid #88888888;
+        border: 1px solid #ffffff88;
         margin: .5rem;
         padding: .5rem;
         width: 12rem;
@@ -326,14 +330,25 @@ body, html {
   
   /* Desktop */
   @media (min-width: 1024px) {
+
+    .heroContainer {
+        position: relative;
+        width: 100%;
+        height: 95vh;
+        z-index: -1;  
+        color: black;
+        padding: .5rem 1.2rem 1rem 2.8rem;
+        margin-top: 0;
+    }
+
     .heroContainer p {
         position: absolute;
-        bottom: .5rem;
+        bottom: 2.5rem;
         color: white;
         font-weight: 300;
-        font-size: 2.8rem;
+        font-size: 3.8rem;
         width: 45%;
-        right: 1.5rem;
+        right: 3.5rem;
         text-align: right;
     }
     .icons {
@@ -438,7 +453,7 @@ body, html {
     }
 
     .service .righticons {
-        border: 1px solid #88888888;
+        border: 1px solid #ffffff88;
         margin: .5rem;
         padding: .5rem;
         width: 16rem;

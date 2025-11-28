@@ -36,50 +36,50 @@ function BaseballPage() {
         <div className={styles.mlbContent}>
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p className={styles.price}>$750</p>
-            <p className={styles.description}>Nueva Playera Red Sox temporada 2025</p>
+            <p style={{fontSize:'1.5rem', fontWeight:'400'}}>$700</p>
+            <p className={styles.description}>Nueva Playera Red Sox 2025</p>
             <button>Comprar</button>
           </div>   
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p className={styles.price}>$750</p>
-            <p className={styles.description}>Nueva Playera Red Sox temporada 2025</p>
+            <p style={{fontSize:'1.5rem', fontWeight:'400'}}>$700</p>
+            <p className={styles.description}>Nueva Playera Red Sox 2025</p>
             <button>Comprar</button>
           </div>  
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p className={styles.price}>$750</p>
-            <p className={styles.description}>Nueva Playera Red Sox temporada 2025</p>
+            <p style={{fontSize:'1.5rem', fontWeight:'400'}}>$700</p>
+            <p className={styles.description}>Nueva Playera Red Sox 2025</p>
             <button>Comprar</button>
           </div>  
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p className={styles.price}>$750</p>
-            <p className={styles.description}>Nueva Playera Red Sox temporada 2025</p>
+            <p style={{fontSize:'1.5rem', fontWeight:'400'}}>$700</p>
+            <p className={styles.description}>Nueva Playera Red Sox 2025</p>
             <button>Comprar</button>
           </div> 
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p className={styles.price}>$750</p>
-            <p className={styles.description}>Nueva Playera Red Sox temporada 2025</p>
+            <p style={{fontSize:'1.5rem', fontWeight:'400'}}>$700</p>
+            <p className={styles.description}>Nueva Playera Red Sox 2025</p>
             <button>Comprar</button>
           </div>   
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p className={styles.price}>$750</p>
-            <p className={styles.description}>Nueva Playera Red Sox temporada 2025</p>
+            <p style={{fontSize:'1.5rem', fontWeight:'400'}}>$700</p>
+            <p className={styles.description}>Nueva Playera Red Sox 2025</p>
             <button>Comprar</button>
           </div>   
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p className={styles.price}>$750</p>
-            <p className={styles.description}>Nueva Playera Red Sox temporada 2025</p>
+            <p style={{fontSize:'1.5rem', fontWeight:'400'}}>$700</p>
+            <p className={styles.description}>Nueva Playera Red Sox 2025</p>
             <button>Comprar</button>
           </div> 
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p className={styles.price}>$750</p>
-            <p className={styles.description}>Nueva Playera Red Sox temporada 2025</p>
+            <p style={{fontSize:'1.5rem', fontWeight:'400'}}>$700</p>
+            <p className={styles.description}>Nueva Playera Red Sox 2025</p>
             <button>Comprar</button>
           </div>    
         </div>
@@ -91,50 +91,50 @@ function BaseballPage() {
         <div className={styles.mlbContent}>
         <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p className={styles.price}>$750</p>
-            <p className={styles.description}>Nueva Playera Red Sox temporada 2025</p>
+            <p style={{fontSize:'1.5rem', fontWeight:'400'}}>$700</p>
+            <p className={styles.description}>Nueva Playera Red Sox 2025</p>
             <button>Comprar</button>
           </div>    
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p className={styles.price}>$750</p>
-            <p className={styles.description}>Nueva Playera Red Sox temporada 2025</p>
+            <p style={{fontSize:'1.5rem', fontWeight:'400'}}>$700</p>
+            <p className={styles.description}>Nueva Playera Red Sox 2025</p>
             <button>Comprar</button>
           </div> 
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p className={styles.price}>$750</p>
-            <p className={styles.description}>Nueva Playera Red Sox temporada 2025</p>
+            <p style={{fontSize:'1.5rem', fontWeight:'400'}}>$700</p>
+            <p className={styles.description}>Nueva Playera Red Sox 2025</p>
             <button>Comprar</button>
           </div> 
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p className={styles.price}>$750</p>
-            <p className={styles.description}>Nueva Playera Red Sox temporada 2025</p>
+            <p style={{fontSize:'1.5rem', fontWeight:'400'}}>$700</p>
+            <p className={styles.description}>Nueva Playera Red Sox 2025</p>
             <button>Comprar</button>
           </div> 
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p className={styles.price}>$750</p>
-            <p className={styles.description}>Nueva Playera Red Sox temporada 2025</p>
+            <p style={{fontSize:'1.5rem', fontWeight:'400'}}>$700</p>
+            <p className={styles.description}>Nueva Playera Red Sox 2025</p>
             <button>Comprar</button>
           </div>   
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p className={styles.price}>$750</p>
-            <p className={styles.description}>Nueva Playera Red Sox temporada 2025</p>
+            <p style={{fontSize:'1.5rem', fontWeight:'400'}}>$700</p>
+            <p className={styles.description}>Nueva Playera Red Sox 2025</p>
             <button>Comprar</button>
           </div> 
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p className={styles.price}>$750</p>
-            <p className={styles.description}>Nueva Playera Red Sox temporada 2025</p>
+            <p style={{fontSize:'1.5rem', fontWeight:'400'}}>$700</p>
+            <p className={styles.description}>Nueva Playera Red Sox 2025</p>
             <button>Comprar</button>
           </div>  
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p className={styles.price}>$750</p>
-            <p className={styles.description}>Nueva Playera Red Sox temporada 2025</p>
+            <p style={{fontSize:'1.5rem', fontWeight:'400'}}>$700</p>
+            <p className={styles.description}>Nueva Playera Red Sox 2025</p>
             <button>Comprar</button>
           </div> 
                

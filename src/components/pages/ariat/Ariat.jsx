@@ -1,19 +1,23 @@
 import { useState } from 'react'
 import shirt from '../../../assets/images/home/red-sox.jpg';
-import styles from './Outlet.module.css';
+import ariat from '../../../assets/images/home/icons/ariat-removebg.png';
+import styles from './Ariat.module.css';
 
-function Outlet() {
+function Ariat() {
     const [count, setCount] = useState(0);
   
     return (
   
       <>
     <div className={styles.title}>
-        <h1>Outlet</h1>
+        <img src={ariat} alt="Ariat Logo" />
+    </div>
+    <div className={styles.logo}>
+        <img src={ariat} alt="Ariat Logo" />
     </div>
     <div className={styles.welcome}>
-        <h1>Ofertas de mas de 60% de descuento</h1>    
-        <p>No esperes mas, estas ofertas son por tiempo limitado hasta agotar existencias, con envio incluido</p>
+        <h1>Encuentra lo mejor de tu marca favorita</h1>    
+        <p>Articulos exclusivos al mejor precio y con las mejores ofertas en el mercado</p>
     </div>  
 
     <div className={styles.mlb}>
@@ -22,58 +26,50 @@ function Outlet() {
         <div className={styles.mlbContent}>
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p style={{color:'red', fontSize:'1.2rem', fontWeight:'500'}}>$400</p>
-            <p style={{fontSize:'.8rem'}}>$750 Precio original</p>
+            <p style={{fontSize:'1rem'}}>$750</p>
             <p>Nueva Playera Red Sox temporada 2025</p>
             <button>Comprar</button>
           </div>   
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p style={{color:'red', fontSize:'1.2rem', fontWeight:'500'}}>$400</p>
-            <p style={{fontSize:'.8rem'}}>$750 Precio original</p>
+            <p style={{fontSize:'1rem'}}>$750</p>
             <p>Nueva Playera Red Sox temporada 2025</p>
             <button>Comprar</button>
           </div>  
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p style={{color:'red', fontSize:'1.2rem', fontWeight:'500'}}>$400</p>
-            <p style={{fontSize:'.8rem'}}>$750 Precio original</p>
+            <p style={{fontSize:'1rem'}}>$750</p>
             <p>Nueva Playera Red Sox temporada 2025</p>
             <button>Comprar</button>
           </div>  
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p style={{color:'red', fontSize:'1.2rem', fontWeight:'500'}}>$400</p>
-            <p style={{fontSize:'.8rem'}}>$750 Precio original</p>
+            <p style={{fontSize:'1rem'}}>$750</p>
             <p>Nueva Playera Red Sox temporada 2025</p>
             <button>Comprar</button>
           </div> 
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p style={{color:'red', fontSize:'1.2rem', fontWeight:'500'}}>$400</p>
-            <p style={{fontSize:'.8rem'}}>$750 Precio original</p>
+            <p style={{fontSize:'1rem'}}>$750</p>
             <p>Nueva Playera Red Sox temporada 2025</p>
             <button>Comprar</button>
           </div>   
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p style={{color:'red', fontSize:'1.2rem', fontWeight:'500'}}>$400</p>
-            <p style={{fontSize:'.8rem'}}>$750 Precio original</p>
+            <p style={{fontSize:'1rem'}}>$750</p>
             <p>Nueva Playera Red Sox temporada 2025</p>
             <button>Comprar</button>
             
           </div>   
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p style={{color:'red', fontSize:'1.2rem', fontWeight:'500'}}>$400</p>
-            <p style={{fontSize:'.8rem'}}>$750 Precio original</p>
+            <p style={{fontSize:'1rem'}}>$750</p>
             <p>Nueva Playera Red Sox temporada 2025</p>
             <button>Comprar</button>
           </div>   
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p style={{color:'red', fontSize:'1.2rem', fontWeight:'500'}}>$400</p>
-            <p style={{fontSize:'.8rem'}}>$750 Precio original</p>
+            <p style={{fontSize:'1rem'}}>$750</p>
             <p>Nueva Playera Red Sox temporada 2025</p>
             <button>Comprar</button>
           </div>    
@@ -86,58 +82,50 @@ function Outlet() {
           <div className={styles.mlbContent}>
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p style={{color:'red', fontSize:'1.2rem', fontWeight:'500'}}>$400</p>
-            <p style={{fontSize:'.8rem'}}>$750 Precio original</p>
+            <p style={{fontSize:'1rem'}}>$750</p>
             <p>Nueva Playera Red Sox temporada 2025</p>
             <button>Comprar</button>
           </div>   
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p style={{color:'red', fontSize:'1.2rem', fontWeight:'500'}}>$400</p>
-            <p style={{fontSize:'.8rem'}}>$750 Precio original</p>
+            <p style={{fontSize:'1rem'}}>$750</p>
             <p>Nueva Playera Red Sox temporada 2025</p>
             <button>Comprar</button>
           </div>  
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p style={{color:'red', fontSize:'1.2rem', fontWeight:'500'}}>$400</p>
-            <p style={{fontSize:'.8rem'}}>$750 Precio original</p>
+            <p style={{fontSize:'1rem'}}>$750</p>
             <p>Nueva Playera Red Sox temporada 2025</p>
             <button>Comprar</button>
           </div>  
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p style={{color:'red', fontSize:'1.2rem', fontWeight:'500'}}>$400</p>
-            <p style={{fontSize:'.8rem'}}>$750 Precio original</p>
+            <p style={{fontSize:'1rem'}}>$750</p>
             <p>Nueva Playera Red Sox temporada 2025</p>
             <button>Comprar</button>
           </div> 
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p style={{color:'red', fontSize:'1.2rem', fontWeight:'500'}}>$400</p>
-            <p style={{fontSize:'.8rem'}}>$750 Precio original</p>
+            <p style={{fontSize:'1rem'}}>$750</p>
             <p>Nueva Playera Red Sox temporada 2025</p>
             <button>Comprar</button>
           </div>   
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p style={{color:'red', fontSize:'1.2rem', fontWeight:'500'}}>$400</p>
-            <p style={{fontSize:'.8rem'}}>$750 Precio original</p>
+            <p style={{fontSize:'1rem'}}>$750</p>
             <p>Nueva Playera Red Sox temporada 2025</p>
             <button>Comprar</button>
             
           </div>   
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p style={{color:'red', fontSize:'1.2rem', fontWeight:'500'}}>$400</p>
-            <p style={{fontSize:'.8rem'}}>$750 Precio original</p>
+            <p style={{fontSize:'1rem'}}>$750</p>
             <p>Nueva Playera Red Sox temporada 2025</p>
             <button>Comprar</button>
           </div>   
           <div className={styles.item}>
             <img src={shirt} alt="Baseball Cano" />
-            <p style={{color:'red', fontSize:'1.2rem', fontWeight:'500'}}>$400</p>
-            <p style={{fontSize:'.8rem'}}>$750 Precio original</p>
+            <p style={{fontSize:'1rem'}}>$750</p>
             <p>Nueva Playera Red Sox temporada 2025</p>
             <button>Comprar</button>
           </div>    
@@ -150,4 +138,4 @@ function Outlet() {
     ); 
 }
 
-export default Outlet;
+export default Ariat;
