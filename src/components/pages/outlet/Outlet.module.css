@@ -10,12 +10,17 @@
 }
 
 .title h1 {
-    font-size: .8rem;
+    font-size: 1.5rem;
     padding-left: 2rem;
+    font-weight: 300;
 }
 
 .welcome {
     padding: 1rem;
+}
+
+.welcome h1 {
+    font-size: 1.8rem;
 }
 
 .mlb .mlbContent .item img {
@@ -110,12 +115,15 @@
         border-radius: 1rem;
     }
 
+
     .welcome h1 {
-        padding-top: 1rem;
+        padding-top: 7rem;
+        padding-left: 1rem;
     }
 
     .welcome p {
         font-size: 1.2rem;
+        padding-left: 1rem;
     }
 
     .item {
@@ -136,18 +144,21 @@
         display: none;
     }
     .welcome {
-        height: 20vh;
+        height: 25vh;
         background-color: black;
         color: white;
         border-radius: 1rem;
     }
 
     .welcome h1 {
-        padding-top: 1.5rem;
+        padding-top: 5.5rem;
+        padding-left: 2rem;
+        font-size: 2.3rem;
     }
 
     .welcome p {
         font-size: 1.5rem;
+        padding-left: 2rem;
     }
     .mlb h2, .lmb h2 {
         font-size: 3.5rem;

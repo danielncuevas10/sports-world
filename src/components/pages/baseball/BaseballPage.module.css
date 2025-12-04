@@ -4,31 +4,32 @@ body, html {
     border: 0;
 }
 
-.heroContainer {
-    position: relative;
-    width: 100%;
-    height: 60vh;
-    z-index: -1;  
-    color: black;
-}
-
-.background {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 1.5rem;
-    z-index: -1;
-}
-
-.heroContainer p {
-    position: absolute;
-    bottom: .5rem;
+.title {
+    margin: 0;
+    border: 0;
+    left: 0;
+    background-color: black;
+    height: 8vh;
+    border-radius: 1rem;
     color: white;
-    font-weight: 300;
-    font-size: 1.7rem;
-    width: 60%;
-    right: 1.5rem;
-    text-align: right;
+    align-content: center;
+}
+
+.title img {
+    height: 3rem;
+    padding-left: 1.2rem;
+}
+
+.logo {
+    display: none;
+}
+
+.welcome {
+    padding: 1rem;
+}
+
+.welcome h1 {
+    font-size: 2rem;
 }
 
 .sportsContainer {
@@ -43,7 +44,7 @@ body, html {
 
 .icons {
     height: 2rem;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.8rem;
 }
 
 /* Baseball collections */
@@ -115,21 +116,25 @@ body, html {
 
 /* iPads and smaller desktops*/
 @media (min-width: 768px) {
-    .heroContainer {
-        position: relative;
-        width: 100%;
-        height: 70vh;
-        z-index: -1;  
-        color: black;
+    .title {
+        display: none;
+    }
+    .welcome {
+        height: 25vh;
+        background-color: black;
+        color: white;
+        border-radius: 1rem;
     }
 
-    .heroContainer p {
-        font-weight: 300;
-        font-size: 2.8rem;
-        width: 45%;
-        right: 1.5rem;
-        text-align: right;
+    .welcome h1 {
+        padding-top: 6.5rem;
+        padding-left: 2rem;
     }
+    .welcome p {
+        font-size: 1.5rem;
+        padding-left: 2rem;
+    }
+
 
     .sportsContainer {
         height: 15vh;
@@ -145,13 +150,25 @@ body, html {
 
   /* Desktop */
   @media (min-width: 1024px) {
-    .heroContainer {
-        position: relative;
-        width: 100%;
-        height: 85vh;
-        z-index: -1;  
-        color: black;
+    .title {
+        display: none;
     }
+    .welcome {
+        height: 25vh;
+        background-color: black;
+        color: white;
+        border-radius: 1rem;
+    }
+
+    .welcome h1 {
+        padding-top: 6.5rem;
+        padding-left: 2rem;
+    }
+    .welcome p {
+        font-size: 1.5rem;
+        padding-left: 2rem;
+    }
+
     .sportsContainer {
         height: 20vh;
     }

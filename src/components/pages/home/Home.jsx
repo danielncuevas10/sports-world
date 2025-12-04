@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import background from '../../../assets/images/home/ohtani-background.jpg';
+import { HashLink as Link } from 'react-router-hash-link';
+import background from '../../../assets/images/home/yankees.png';
 import mlb from '../../../assets/images/home/icons/mlb.png';
 import lmb from '../../../assets/images/home/icons/lmb.png';
 import harley from '../../../assets/images/home/icons/harley.png';
@@ -42,12 +43,16 @@ function Home() {
         <div className={styles.item}>
           <img src={tatis} alt="Baseball Cano" />
           <p>Premium Jerseys Grandes Ligas</p>
-          <button>Ver Coleccion</button>
+            <Link to="/baseball#mlb-section">
+              <button>Ver Coleccion</button>
+            </Link>
         </div>
         <div className={styles.item}>
           <img src={cano} alt="Baseball Cano" />
           <p>Premium Jerseys Liga Mexicana</p>
-          <button>Ver Coleccion</button>
+            <Link to="/baseball#lmb-section">
+              <button>Ver Coleccion</button>
+            </Link>
         </div>
         
       </div>
