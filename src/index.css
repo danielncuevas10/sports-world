@@ -52,7 +52,12 @@ button {
 }
 
 button:hover {
-  border-color: #646cff;
+  background-color: #000000;
+  color: white;
+  scale: 1.2;
+  transition: all 0.3s ease-in-out;
+  font-weight: 300;
+  border: 1px solid white;
 }
 button:focus,
 button:focus-visible {

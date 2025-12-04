@@ -2,16 +2,14 @@ body, html {
     padding: 0;
     margin: 0;
     border: 0;
-    overflow-x: hidden;
 }
 
 .heroContainer {
     position: relative;
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     z-index: -1;  
     color: black;
-    overflow: hidden;
 }
 
 .background {
@@ -48,6 +46,7 @@ body, html {
     height: 2.5rem;
     padding: 1rem 1.1rem;
 }
+
 
 /* Baseball collections */
 
@@ -214,18 +213,12 @@ body, html {
     .heroContainer {
         position: relative;
         width: 100%;
-        height: 85vh;
-        overflow: hidden;
+        height: 70vh;
         z-index: -1;  
         color: black;
-        justify-self: center;
-        margin-top: 0;
     }
 
     .heroContainer p {
-        position: absolute;
-        bottom: .5rem;
-        color: white;
         font-weight: 300;
         font-size: 2.8rem;
         width: 45%;
@@ -332,13 +325,12 @@ body, html {
   @media (min-width: 1024px) {
 
     .heroContainer {
+        padding: 1rem;
         position: relative;
         width: 100%;
-        height: 95vh;
+        height: 98vh;
         z-index: -1;  
         color: black;
-        padding: .5rem 1.2rem 1rem 2.8rem;
-        margin-top: 0;
     }
 
     .heroContainer p {
